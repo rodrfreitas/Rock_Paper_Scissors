@@ -24,7 +24,7 @@ TODO: Write history
 
 ## Credits
 
-Rodrigo Rocha de Freitas  - Tiago da Siva Witt
+Rodrigo Rocha de Freitas  - Tiago da Silva Witt
 
 ## License
 
