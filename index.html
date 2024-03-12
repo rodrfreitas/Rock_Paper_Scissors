@@ -18,7 +18,7 @@
     <script defer src="js/scrollreveal.min.js"></script>
     <!-- ++++++++++++++ MAIN JS ++++++++++++++++-->
     <script defer src="js/scrollrevcalls.js"></script>
-    <script defer src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 </head>
 <body>
     <!-- ################ HEADER ################ -->
@@ -28,7 +28,7 @@
     <section id="game-desc" class="grid-con">
         <div id="rule-field" class="col-span-full">
             <h1>Game Mode: Best of Three</h1>
-            <p>The first to win three rounds is the winner.</p>
+            <p>The first to win three times or two consecutive rounds is the winner.</p>
         </div>
     </section>
 
@@ -37,15 +37,15 @@
         <div id="game-score" class="col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10 xl-col-start-5 xl-col-end-9">
             <div class="score-box">
                 <p>You</p>
-                <h2 id="current-player-score">3</h2>
+                <h2 id="current-player-score"></h2>
             </div>
             <div class="score-box">
                 <p>Round</p>
-                <h2 id="current-round">3</h2>
+                <h2 id="current-round"></h2>
             </div>
             <div class="score-box">
                 <p>CPU</p>
-                <h2 id="current-cpu-score">1</h2>
+                <h2 id="current-cpu-score"></h2>
             </div>
         </div>
     </section>
@@ -55,14 +55,14 @@
         <div id="game-field-content" class="col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10 xl-col-start-5 xl-col-end-9">
             <div class="selected-hands">
                 <h3>You played</h3>
-                <p id="player-selected-hand-text">Paper</p>
-                <img id="player-hand-img" src="images/ply_paper.svg" alt="">
+                <p id="player-selected-hand-text"></p>
+                <img id="player-hand-img" src="" alt="">
             </div>
 
             <div class="selected-hands">
                 <h3>CPU played</h3>
-                <p id="cpu-selected-hand-text">Rock</p>
-                <img id="cpu-hand-img" src="images/cpu_rock.svg" alt="">
+                <p id="cpu-selected-hand-text"></p>
+                <img id="cpu-hand-img" src="" alt="">
             </div>
         </div>
     </section>
@@ -70,8 +70,9 @@
     <!-- ################ WIN STATUS ################ -->
     <section id="win-status" class="grid-con">
         <div id="round-result" class="col-span-full">
-            <h2>Player wins the round</h2>
-            <p>Try you luck again</p>
+            <p id="round-result-msg"><p>
+            <h2 id="game-result-msg"></h2>
+            <button id="restart-button">Restart Game</button>
         </div>
     </section>
 

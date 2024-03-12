@@ -142,12 +142,15 @@ span {
 // ############## WIN STATUS ##############
 
 #win-status {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
+
 }
 
 #round-result {
 
+    text-align: center;
+   
     h2 {
         color: v.$accent-color;
         text-shadow: 2px 2px #000000;
@@ -161,6 +164,8 @@ span {
     }
     
 }
+
+
 
 // ############## PLAYER OPTIONS ##############
 
@@ -183,7 +188,7 @@ span {
 #player-options {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -200,6 +205,7 @@ span {
 
     &:hover {
         border-color: #fff;
+        cursor: pointer;
     }
 }
 
