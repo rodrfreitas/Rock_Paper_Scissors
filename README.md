@@ -1,6 +1,16 @@
-# OOP JS, MODULES AND BUNDLING
+# ROCK, PAPER, SCISSORS GAME - OOP JS, MODULES AND BUNDLING
 
-OOP JS, MODULES AND BUNDLING
+This is a game of Rock Paper Scissors created using JavaScript, Sass, GreenSock, and Parcel.js for bundling. The objective was to use classes to create the main components of the game and Parcel.js to bundle the app.
+
+We are also utilizing Netlify for autodeploy purposes. This marks the first step as we explore and learn about the JAM Stack.
+
+## Classes:
+
+- `Player`
+- `ComputerPlayer` (inherits from `Player`)
+- `Game`
+
+The rules of the game are based on a best-of-three scenario.
 
 ## Installation
 

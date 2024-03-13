@@ -1,0 +1,17 @@
+@use '../abstracts' as a;
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    img {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        img {
+            width: 280px;
+        }
+    }
+}
