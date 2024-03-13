@@ -1,0 +1,2 @@
+(()=>{let e=ScrollReveal({origin:"top",distance:"60px",duration:2500,delay:400});e.reveal("#hero-img-large, #demo-reel, #contact-form",{origin:"right"}),e.reveal("#hero-heading-large, #demo-reel-card, #contact-card",{origin:"left"}),e.reveal(".small_sphere, .services-card, .skill-tag, .proj-sshot",{interval:100}),e.reveal(".skill-tag, .project-card",{interval:10})})();
+//# sourceMappingURL=index.450aed76.js.map
